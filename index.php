@@ -1,10 +1,12 @@
 <?php 
 
 class ProdottiPerAnimali{
-    public $cani;
-    public $gatti;
-    public $uccelli;
-    public $pesci;
+    public $accessorio;
+    public $cibo;
+    public $gioco;
+    public $prodotto;
+    public $categoria;
+    
 }
 
 ?>
