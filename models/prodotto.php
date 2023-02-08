@@ -10,7 +10,7 @@
             $this->product_name = $name;
             $this->price = $price;
             $this->image = $image;
-            $this-> category = $category
+            $this-> category = $category;
         }
     }
 

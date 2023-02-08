@@ -1,9 +1,9 @@
 <?php
-    include __DIR__. '/../models/prodotto.php'
-    include __DIR__. '/../models/gioco.php'
-    include __DIR__. '/../models/accessorio.php'
-    include __DIR__. '/../models/cibo.php'
-    include __DIR__. '/../models/categoria.php'
+    include __DIR__. '/../models/prodotto.php';
+    include __DIR__. '/../models/gioco.php';
+    include __DIR__. '/../models/accessorio.php';
+    include __DIR__. '/../models/cibo.php';
+    include __DIR__. '/../models/categoria.php';
 
     //creo l'array di categorie
     $categories = [
@@ -11,7 +11,7 @@
         'gatto' => new categoria('gatto', '<i class="fa-solid fa-cat"></i>'),
         'uccello' => new categoria('uccello', '<i class="fa-solid fa-dove"></i>'),
         'pesce' => new categoria('pesce', '<i class="fa-solid fa-fish"></i>'),
-    ]
+    ];
 
     //creo array dei prodotti
     $products = [
@@ -28,5 +28,5 @@
         new Gioco('Kong',15, 'https://picsum.photos/id/237/200/300',$categories['cane'],'Galleggia e rimbalza', '8.5cm x 10cm'),
         
         new Gioco('Topini di peluche TRixie',15, 'https://picsum.photos/id/237/200/300',$categories['gatto'],'Morbido con codina in corda', '8.5cm x 10cm'),
-    ]
+    ];
 ?>

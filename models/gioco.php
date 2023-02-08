@@ -8,7 +8,7 @@
             parent::__construct($name, $price, $image, $category);
             //sopra é come riscrivere il construct di prodotto.php 
             $this->size = $size;
-            $this->features = $features
+            $this->features = $features;
         }
     }
 
