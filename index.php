@@ -26,5 +26,6 @@ include __DIR__.'/database/db.php';
             <?php } ?>    
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
